@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brighton Mark Ochieng Auto Yard - Quality Used Cars in Kenya</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#3b82f6',secondary:'#10b981'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="web9/style.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="#" class="font-['Pacifico'] text-2xl md:text-3xl text-primary">Brighton</a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-gray-700 hover:text-primary font-medium">Home</a>
+                    <a href="#cars" class="text-gray-700 hover:text-primary font-medium">Cars</a>
+                    <a href="#featured" class="text-gray-700 hover:text-primary font-medium">Featured</a>
+                    <a href="#contact" class="text-gray-700 hover:text-primary font-medium">Contact</a>
+                </nav>
+                
+                <!-- Contact Info -->
+                <div class="hidden md:flex items-center">
+                    <div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mr-3">
+                        <i class="ri-phone-line text-primary"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500">Call Us</p>
+                        <p class="text-sm font-medium">0742327151</p>
+                    </div>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="md:hidden w-10 h-10 flex items-center justify-center">
+                    <i class="ri-menu-line text-xl"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="md:hidden hidden pt-4 pb-2">
+                <nav class="flex flex-col space-y-3">
+                    <a href="#" class="text-gray-700 hover:text-primary font-medium py-2">Home</a>
+                    <a href="#cars" class="text-gray-700 hover:text-primary font-medium py-2">Cars</a>
+                    <a href="#featured" class="text-gray-700 hover:text-primary font-medium py-2">Featured</a>
+                    <a href="#contact" class="text-gray-700 hover:text-primary font-medium py-2">Contact</a>
+                </nav>
+                <div class="flex items-center mt-4">
+                    <div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mr-3">
+                        <i class="ri-phone-line text-primary"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500">Call Us</p>
+                        <p class="text-sm font-medium">0742327151</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section relative w-full">
+        <div class="hero-overlay w-full h-full absolute inset-0"></div>
+        <div class="container mx-auto px-4 py-16 md:py-24 relative z-10">
+          <div class="w-full md:w-1/2 lg:w-2/5 mx-auto text-center">
+    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-green-500 mb-4">Find Your Perfect Car at Brighton Mark Ochieng Auto Yard</h1>
+    <p class="font-bold text-blue-600 text-lg mb-8">Browse our extensive collection of quality used cars at competitive prices in Kenya and remember this is the best yard with quality machines in East and Central Africa.</p>
+
+    <div class="flex flex-wrap gap-3 mb-8">
+                    <a href="#cars" class="bg-primary text-white px-6 py-3 rounded-button font-medium inline-flex items-center whitespace-nowrap">
+                        <i class="ri-car-line mr-2"></i> Browse Cars
+                    </a>
+                    <a href="#contact" class="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-button font-medium inline-flex items-center whitespace-nowrap">
+                        <i class="ri-customer-service-2-line mr-2"></i> Contact Us
+                    </a>
+                </div>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh; /* Ensure the body takes up the full height */
+            background-image: url('image/brighton.jpg');
+            background-size: cover; /* Ensures the image covers the entire screen */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            background-attachment: fixed; /* Keeps the background fixed while scrolling */
+        }
+    </style>
+                <div class="bg-white p-5 rounded-lg shadow-md">
+                    <h3 class="text-lg font-semibold mb-4">Quick Search</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Price Range</label>
+                            <select class="w-full border border-gray-300 rounded py-2 px-3 pr-8 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary">
+                                <option>Any Price</option>
+                                <option>Under KES 500,000</option>
+                                <option>KES 500,000 - 1,000,000</option>
+                                <option>KES 1,000,000 - 2,000,000</option>
+                                <option>KES 2,000,000 - 3,000,000</option>
+                                <option>Over KES 3,000,000</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Make</label>
+                            <select class="w-full border border-gray-300 rounded py-2 px-3 pr-8 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary">
+                                <option>All Makes</option>
+                                <option>Toyota</option>
+                                <option>Honda</option>
+                                <option>Mazda</option>
+                                <option>Subaru</option>
+                                <option>Nissan</option>
+                                <option>Mercedes-Benz</option>
+                                <option>BMW</option>
+                            </select>
+                        </div>
+                        <div class="md:col-span-2">
+                            <button class="w-full bg-primary text-white py-2 px-4 rounded-button font-medium whitespace-nowrap">
+                                <i class="ri-search-line mr-2"></i> Search Cars
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Car Listings -->
+    <section id="cars" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
+                <div>
+                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Available Cars</h2>
+                    <p class="text-gray-600">Browse our collection of quality used cars</p>
+                </div>
+                
+                <div class="mt-4 md:mt-0 flex items-center">
+                    <div class="relative">
+                        <select class="appearance-none bg-gray-100 border-none rounded-lg py-2 pl-4 pr-10 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary">
+                            <option>Sort by: Featured</option>
+                            <option>Price: Low to High</option>
+                            <option>Price: High to Low</option>
+                            <option>Newest First</option>
+                        </select>
+                        <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+                            <i class="ri-arrow-down-s-line text-gray-500"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Filters -->
+            <div class="bg-gray-50 p-4 rounded-lg mb-8">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Make</label>
+                        <select class="w-full border border-gray-300 rounded py-2 px-3 pr-8 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary">
+                            <option>All Makes</option>
+                            <option>Toyota</option>
+                            <option>Honda</option>
+                            <option>Mazda</option>
+                            <option>Subaru</option>
+                            <option>Nissan</option>
+                            <option>Mercedes-Benz</option>
+                            <option>BMW</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Model</label>
+                        <select class="w-full border border-gray-300 rounded py-2 px-3 pr-8 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary">
+                            <option>All Models</option>
+                            <option>Corolla</option>
+                            <option>Camry</option>
+                            <option>RAV4</option>
+                            <option>Civic</option>
+                            <option>Accord</option>
+                            <option>CX-5</option>
+                            <option>Forester</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Year</label>
+                        <select class="w-full border border-gray-300 rounded py-2 px-3 pr-8 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary">
+                            <option>All Years</option>
+                            <option>2023</option>
+                            <option>2022</option>
+                            <option>2021</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                            <option>2017</option>
+                            <option>2016</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Price Range</label>
+                        <div class="relative">
+                            <input type="range" class="custom-range" min="500000" max="5000000" step="100000" value="2500000" id="priceRange">
+                            <div class="flex justify-between mt-1">
+                                <span class="text-xs text-gray-500">KES 500,000</span>
+                                <span class="text-xs text-gray-500" id="priceValue">KES 2,500,000</span>
+                                <span class="text-xs text-gray-500">KES 5,000,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex flex-wrap gap-4 mt-4">
+                    <label class="custom-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <span class="ml-2">Automatic</span>
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <span class="ml-2">Manual</span>
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <span class="ml-2">Petrol</span>
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <span class="ml-2">Diesel</span>
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <span class="ml-2">Hybrid</span>
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <span class="ml-2">Electric</span>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Car Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Car 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 car-card">
+                    <div class="relative">
+                        <img src="https://readdy.ai/api/search-image?query=2022%20Toyota%20Fortuner%20SUV%20in%20silver%20color%2C%20front%20three-quarter%20view%2C%20clean%20background%2C%20professional%20car%20photography%2C%20detailed%2C%20high%20resolution%2C%20showroom%20quality%2C%20glossy%20paint%2C%20premium%20wheels%2C%20studio%20lighting%2C%20no%20people&width=600&height=400&seq=2&orientation=landscape" alt="Toyota Fortuner" class="w-full h-56 object-cover object-top">
+                        <div class="absolute top-3 right-3 bg-primary text-white px-3 py-1 rounded-full text-sm font-medium">Featured</div>
+                    </div>
+                    <div class="p-5">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold text-gray-900">Toyota Fortuner</h3>
+                            <span class="text-lg font-bold text-primary">KES 3,850,000</span>
+                        </div>
+                        <p class="text-gray-500 mb-4">2022 • 35,000 km</p>
+                        
+                        <div class="grid grid-cols-2 gap-2 mb-4">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-dashboard-3-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">35,000 km</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-gas-station-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">Diesel</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-steering-2-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">Automatic</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-calendar-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">2022</span>
+                            </div>
+                        </div>
+                        
+                        <button class="w-full bg-primary text-white py-2 rounded-button font-medium whitespace-nowrap">View Details</button>
+                    </div>
+                </div>
+                
+                <!-- Car 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 car-card">
+                    <div class="relative">
+                        <img src="https://readdy.ai/api/search-image?query=2021%20Honda%20CR-V%20in%20deep%20blue%20color%2C%20front%20three-quarter%20view%2C%20clean%20background%2C%20professional%20car%20photography%2C%20detailed%2C%20high%20resolution%2C%20showroom%20quality%2C%20glossy%20paint%2C%20premium%20wheels%2C%20studio%20lighting%2C%20no%20people&width=600&height=400&seq=3&orientation=landscape" alt="Honda CR-V" class="w-full h-56 object-cover object-top">
+                    </div>
+                    <div class="p-5">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold text-gray-900">Honda CR-V</h3>
+                            <span class="text-lg font-bold text-primary">KES 2,950,000</span>
+                        </div>
+                        <p class="text-gray-500 mb-4">2021 • 42,500 km</p>
+                        
+                        <div class="grid grid-cols-2 gap-2 mb-4">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-dashboard-3-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">42,500 km</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-gas-station-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">Petrol</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-steering-2-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">Automatic</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-calendar-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">2021</span>
+                            </div>
+                        </div>
+                        
+                        <button class="w-full bg-primary text-white py-2 rounded-button font-medium whitespace-nowrap">View Details</button>
+                    </div>
+                </div>
+                
+                <!-- Car 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 car-card">
+                    <div class="relative">
+                        <img src="https://readdy.ai/api/search-image?query=2020%20Mazda%20CX-5%20in%20red%20color%2C%20front%20three-quarter%20view%2C%20clean%20background%2C%20professional%20car%20photography%2C%20detailed%2C%20high%20resolution%2C%20showroom%20quality%2C%20glossy%20paint%2C%20premium%20wheels%2C%20studio%20lighting%2C%20no%20people&width=600&height=400&seq=4&orientation=landscape" alt="Mazda CX-5" class="w-full h-56 object-cover object-top">
+                        <div class="absolute top-3 right-3 bg-green-500 text-white px-3 py-1 rounded-full text-sm font-medium">Sale</div>
+                    </div>
+                    <div class="p-5">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold text-gray-900">Mazda CX-5</h3>
+                            <div>
+                                <span class="text-sm font-medium text-gray-500 line-through">KES 2,650,000</span>
+                                <span class="block text-lg font-bold text-primary">KES 2,450,000</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-500 mb-4">2020 • 58,000 km</p>
+                        
+                        <div class="grid grid-cols-2 gap-2 mb-4">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-dashboard-3-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">58,000 km</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-gas-station-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">Petrol</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-steering-2-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">Automatic</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-calendar-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">2020</span>
+                            </div>
+                        </div>
+                        
+                        <button class="w-full bg-primary text-white py-2 rounded-button font-medium whitespace-nowrap">View Details</button>
+                    </div>
+                </div>
+                
+                <!-- Car 4 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 car-card">
+                    <div class="relative">
+                        <img src="https://readdy.ai/api/search-image?query=2019%20Subaru%20Forester%20in%20dark%20green%20color%2C%20front%20three-quarter%20view%2C%20clean%20background%2C%20professional%20car%20photography%2C%20detailed%2C%20high%20resolution%2C%20showroom%20quality%2C%20glossy%20paint%2C%20premium%20wheels%2C%20studio%20lighting%2C%20no%20people&width=600&height=400&seq=5&orientation=landscape" alt="Subaru Forester" class="w-full h-56 object-cover object-top">
+                    </div>
+                    <div class="p-5">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold text-gray-900">Subaru Forester</h3>
+                            <span class="text-lg font-bold text-primary">KES 2,150,000</span>
+                        </div>
+                        <p class="text-gray-500 mb-4">2019 • 75,000 km</p>
+                        
+                        <div class="grid grid-cols-2 gap-2 mb-4">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-dashboard-3-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">75,000 km</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-gas-station-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">Petrol</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-steering-2-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">Automatic</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-calendar-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">2019</span>
+                            </div>
+                        </div>
+                        
+                        <button class="w-full bg-primary text-white py-2 rounded-button font-medium whitespace-nowrap">View Details</button>
+                    </div>
+                </div>
+                
+                <!-- Car 5 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 car-card">
+                    <div class="relative">
+                        <img src="https://readdy.ai/api/search-image?query=2021%20Nissan%20X-Trail%20in%20pearl%20white%20color%2C%20front%20three-quarter%20view%2C%20clean%20background%2C%20professional%20car%20photography%2C%20detailed%2C%20high%20resolution%2C%20showroom%20quality%2C%20glossy%20paint%2C%20premium%20wheels%2C%20studio%20lighting%2C%20no%20people&width=600&height=400&seq=6&orientation=landscape" alt="Nissan X-Trail" class="w-full h-56 object-cover object-top">
+                    </div>
+                    <div class="p-5">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold text-gray-900">Nissan X-Trail</h3>
+                            <span class="text-lg font-bold text-primary">KES 2,750,000</span>
+                        </div>
+                        <p class="text-gray-500 mb-4">2021 • 48,000 km</p>
+                        
+                        <div class="grid grid-cols-2 gap-2 mb-4">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-dashboard-3-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">48,000 km</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-gas-station-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">Petrol</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-steering-2-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">Automatic</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-calendar-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">2021</span>
+                            </div>
+                        </div>
+                        
+                        <button class="w-full bg-primary text-white py-2 rounded-button font-medium whitespace-nowrap">View Details</button>
+                    </div>
+                </div>
+                
+                <!-- Car 6 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 car-card">
+                    <div class="relative">
+                        <img src="https://readdy.ai/api/search-image?query=2018%20Mercedes-Benz%20C-Class%20in%20black%20color%2C%20front%20three-quarter%20view%2C%20clean%20background%2C%20professional%20car%20photography%2C%20detailed%2C%20high%20resolution%2C%20showroom%20quality%2C%20glossy%20paint%2C%20premium%20wheels%2C%20studio%20lighting%2C%20no%20people&width=600&height=400&seq=7&orientation=landscape" alt="Mercedes-Benz C-Class" class="w-full h-56 object-cover object-top">
+                        <div class="absolute top-3 right-3 bg-primary text-white px-3 py-1 rounded-full text-sm font-medium">Featured</div>
+                    </div>
+                    <div class="p-5">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold text-gray-900">Mercedes-Benz C-Class</h3>
+                            <span class="text-lg font-bold text-primary">KES 3,250,000</span>
+                        </div>
+                        <p class="text-gray-500 mb-4">2018 • 65,000 km</p>
+                        
+                        <div class="grid grid-cols-2 gap-2 mb-4">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-dashboard-3-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">65,000 km</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-gas-station-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">Petrol</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-steering-2-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">Automatic</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                    <i class="ri-calendar-line"></i>
+                                </div>
+                                <span class="text-sm text-gray-700">2018</span>
+                            </div>
+                        </div>
+                        
+                        <button class="w-full bg-primary text-white py-2 rounded-button font-medium whitespace-nowrap">View Details</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-10 text-center">
+                <button class="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-button font-medium inline-flex items-center whitespace-nowrap">
+                    <i class="ri-refresh-line mr-2"></i> Load More Cars
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Deals -->
+    <section id="featured" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Featured Deals</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Explore our special offers and featured vehicles with exclusive discounts</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- Featured Deal 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md flex flex-col md:flex-row">
+                    <div class="md:w-2/5 relative">
+                        <img src="https://readdy.ai/api/search-image?query=2023%20Toyota%20Land%20Cruiser%20Prado%20in%20metallic%20bronze%20color%2C%20front%20three-quarter%20view%2C%20clean%20background%2C%20professional%20car%20photography%2C%20detailed%2C%20high%20resolution%2C%20showroom%20quality%2C%20glossy%20paint%2C%20premium%20wheels%2C%20studio%20lighting%2C%20no%20people&width=500&height=600&seq=8&orientation=portrait" alt="Toyota Land Cruiser Prado" class="w-full h-full object-cover object-top">
+                        <div class="absolute top-3 right-3 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-medium">Hot Deal</div>
+                    </div>
+                    <div class="md:w-3/5 p-6 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-gray-900">Toyota Land Cruiser Prado</h3>
+                                <div>
+                                    <span class="text-sm font-medium text-gray-500 line-through">KES 6,500,000</span>
+                                    <span class="block text-xl font-bold text-primary">KES 5,950,000</span>
+                                </div>
+                            </div>
+                            <p class="text-gray-500 mb-4">2023 • 15,000 km</p>
+                            
+                            <div class="grid grid-cols-2 gap-3 mb-4">
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                        <i class="ri-dashboard-3-line"></i>
+                                    </div>
+                                    <span class="text-sm text-gray-700">15,000 km</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                        <i class="ri-gas-station-line"></i>
+                                    </div>
+                                    <span class="text-sm text-gray-700">Diesel</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                        <i class="ri-steering-2-line"></i>
+                                    </div>
+                                    <span class="text-sm text-gray-700">Automatic</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                        <i class="ri-calendar-line"></i>
+                                    </div>
+                                    <span class="text-sm text-gray-700">2023</span>
+                                </div>
+                            </div>
+                            
+                            <p class="text-gray-700 mb-4">Luxury 7-seater SUV with premium leather interior, 360° camera, adaptive cruise control, and sunroof. Limited time offer!</p>
+                        </div>
+                        
+                        <div class="flex space-x-3">
+                            <button class="flex-1 bg-primary text-white py-2 rounded-button font-medium whitespace-nowrap">View Details</button>
+                            <button class="w-10 h-10 flex items-center justify-center border border-gray-300 rounded-full">
+                                <i class="ri-heart-line text-gray-500"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Featured Deal 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md flex flex-col md:flex-row">
+                    <div class="md:w-2/5 relative">
+                        <img src="https://readdy.ai/api/search-image?query=2022%20BMW%20X5%20in%20mineral%20white%20color%2C%20front%20three-quarter%20view%2C%20clean%20background%2C%20professional%20car%20photography%2C%20detailed%2C%20high%20resolution%2C%20showroom%20quality%2C%20glossy%20paint%2C%20premium%20wheels%2C%20studio%20lighting%2C%20no%20people&width=500&height=600&seq=9&orientation=portrait" alt="BMW X5" class="w-full h-full object-cover object-top">
+                        <div class="absolute top-3 right-3 bg-green-500 text-white px-3 py-1 rounded-full text-sm font-medium">Special Offer</div>
+                    </div>
+                    <div class="md:w-3/5 p-6 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-gray-900">BMW X5</h3>
+                                <div>
+                                    <span class="text-sm font-medium text-gray-500 line-through">KES 7,200,000</span>
+                                    <span class="block text-xl font-bold text-primary">KES 6,750,000</span>
+                                </div>
+                            </div>
+                            <p class="text-gray-500 mb-4">2022 • 25,000 km</p>
+                            
+                            <div class="grid grid-cols-2 gap-3 mb-4">
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                        <i class="ri-dashboard-3-line"></i>
+                                    </div>
+                                    <span class="text-sm text-gray-700">25,000 km</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                        <i class="ri-gas-station-line"></i>
+                                    </div>
+                                    <span class="text-sm text-gray-700">Petrol</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                        <i class="ri-steering-2-line"></i>
+                                    </div>
+                                    <span class="text-sm text-gray-700">Automatic</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 flex items-center justify-center text-gray-500">
+                                        <i class="ri-calendar-line"></i>
+                                    </div>
+                                    <span class="text-sm text-gray-700">2022</span>
+                                </div>
+                            </div>
+                            
+                            <p class="text-gray-700 mb-4">Luxury SUV with panoramic sunroof, premium sound system, heads-up display, and full driver assistance package. Includes 1-year free service.</p>
+                        </div>
+                        
+                        <div class="flex space-x-3">
+                            <button class="flex-1 bg-primary text-white py-2 rounded-button font-medium whitespace-nowrap">View Details</button>
+                            <button class="w-10 h-10 flex items-center justify-center border border-gray-300 rounded-full">
+                                <i class="ri-heart-line text-gray-500"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Why Choose Brighton Auto Yard</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">We provide the best car buying experience in Kenya</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Reason 1 -->
+                <div class="bg-gray-50 p-6 rounded-lg text-center">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="ri-verified-badge-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Quality Verified</h3>
+                    <p class="text-gray-600">All our vehicles undergo a rigorous 100-point inspection before listing</p>
+                </div>
+                
+                <!-- Reason 2 -->
+                <div class="bg-gray-50 p-6 rounded-lg text-center">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="ri-money-dollar-circle-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Best Prices</h3>
+                    <p class="text-gray-600">Competitive pricing with no hidden fees or charges</p>
+                </div>
+                
+                <!-- Reason 3 -->
+                <div class="bg-gray-50 p-6 rounded-lg text-center">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="ri-file-list-3-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Full History</h3>
+                    <p class="text-gray-600">Comprehensive vehicle history and maintenance records provided</p>
+                </div>
+                
+                <!-- Reason 4 -->
+                <div class="bg-gray-50 p-6 rounded-lg text-center">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="ri-customer-service-2-line text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Dedicated Support</h3>
+                    <p class="text-gray-600">Our team is available 7 days a week to assist with your purchase</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-2">What Our Customers Say</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Read testimonials from our satisfied customers</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-primary">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6">"I had an excellent experience buying my Toyota Fortuner from Brighton Auto Yard. The process was smooth, transparent, and the team was very professional. I got a great deal and the car has been performing perfectly."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+                            <i class="ri-user-3-line text-gray-500"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Rashid Vincent Otieno</h4>
+                            <p class="text-sm text-gray-500">Nairobi</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-primary">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6">"Brighton Auto Yard offered me the best price for my Honda CR-V compared to other dealers. The staff was knowledgeable and helped me find the perfect car within my budget. Highly recommended!"</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+                            <i class="ri-user-3-line text-gray-500"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Ricslee Awuor</h4>
+                            <p class="text-sm text-gray-500">Mombasa</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-primary">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6">"As a first-time car buyer, I was nervous about the process, but Brighton Auto Yard made it easy. They were patient, answered all my questions, and helped me find a reliable Mazda that fit my needs perfectly."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+                            <i class="ri-user-3-line text-gray-500"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Gundi George</h4>
+                            <p class="text-sm text-gray-500">Kisumu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div>
+                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Contact Us</h2>
+                    <p class="text-gray-600 mb-6">Have questions about our vehicles or services? Get in touch with us!</p>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mr-4 mt-1">
+                                <i class="ri-map-pin-line text-primary"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900 mb-1">Visit Our Yard</h3>
+                                <p class="text-gray-600">Mombasa Road, Next to City Cabanas, Nairobi, Kenya</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mr-4 mt-1">
+                                <i class="ri-phone-line text-primary"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900 mb-1">Call Us</h3>
+                                <p class="text-gray-600">0742327151</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mr-4 mt-1">
+                                <i class="ri-mail-line text-primary"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900 mb-1">Email Us</h3>
+                                <p class="text-gray-600">ochiengbrighton109@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mr-4 mt-1">
+                                <i class="ri-time-line text-primary"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900 mb-1">Business Hours</h3>
+                                <p class="text-gray-600">Monday - Saturday: 8:00 AM - 6:00 PM<br>Sunday: 10:00 AM - 4:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-100 hover:bg-primary hover:text-white text-gray-600 rounded-full transition-colors">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-100 hover:bg-primary hover:text-white text-gray-600 rounded-full transition-colors">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-100 hover:bg-primary hover:text-white text-gray-600 rounded-full transition-colors">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-100 hover:bg-primary hover:text-white text-gray-600 rounded-full transition-colors">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Send Us a Message</h3>
+                        <form>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                                <div>
+                                    <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                                    <input type="text" id="name" class="w-full border border-gray-300 rounded py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary" placeholder="Your name">
+                                </div>
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                                    <input type="email" id="email" class="w-full border border-gray-300 rounded py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary" placeholder="Your email">
+                                </div>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                                <input type="tel" id="phone" class="w-full border border-gray-300 rounded py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary" placeholder="Your phone number">
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="interest" class="block text-sm font-medium text-gray-700 mb-1">I'm Interested In</label>
+                                <select id="interest" class="w-full border border-gray-300 rounded py-2 px-3 pr-8 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary">
+                                    <option>Buying a Car</option>
+                                    <option>Selling a Car</option>
+                                    <option>Car Financing</option>
+                                    <option>Vehicle Inspection</option>
+                                    <option>Other Inquiry</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                                <textarea id="message" rows="4" class="w-full border border-gray-300 rounded py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary" placeholder="Your message"></textarea>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label class="custom-checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="ml-2 text-gray-700">I agree to receive emails about special offers and updates</span>
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-primary text-white py-3 rounded-button font-medium whitespace-nowrap">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-12 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <a href="#" class="font-['Pacifico'] text-2xl text-white mb-4 inline-block">Brighton</a>
+                    <p class="text-gray-400 mb-4">Your trusted partner for quality used cars in Kenya. We provide the best selection at competitive prices.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-8 h-8 flex items-center justify-center bg-gray-800 hover:bg-primary text-gray-400 hover:text-white rounded-full transition-colors">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center bg-gray-800 hover:bg-primary text-gray-400 hover:text-white rounded-full transition-colors">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center bg-gray-800 hover:bg-primary text-gray-400 hover:text-white rounded-full transition-colors">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center bg-gray-800 hover:bg-primary text-gray-400 hover:text-white rounded-full transition-colors">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#cars" class="text-gray-400 hover:text-white transition-colors">Cars</a></li>
+                        <li><a href="#featured" class="text-gray-400 hover:text-white transition-colors">Featured Deals</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Contact Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Our Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Car Sales</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Car Financing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Vehicle Inspection</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Trade-In</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">After-Sales Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Car Insurance</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Info</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <div class="w-5 h-5 flex items-center justify-center text-gray-400 mr-3 mt-1">
+                                <i class="ri-map-pin-line"></i>
+                            </div>
+                            <span class="text-gray-400">Mombasa Road, Next to City Cabanas, Nairobi, Kenya</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="w-5 h-5 flex items-center justify-center text-gray-400 mr-3 mt-1">
+                                <i class="ri-phone-line"></i>
+                            </div>
+                            <span class="text-gray-400">0742327151</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="w-5 h-5 flex items-center justify-center text-gray-400 mr-3 mt-1">
+                                <i class="ri-mail-line"></i>
+                            </div>
+                            <span class="text-gray-400">ochiengbrighton109@gmail.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="w-5 h-5 flex items-center justify-center text-gray-400 mr-3 mt-1">
+                                <i class="ri-time-line"></i>
+                            </div>
+                            <span class="text-gray-400">Mon-Sat: 8:00 AM - 6:00 PM<br>Sun: 10:00 AM - 4:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="pt-8 border-t border-gray-800 text-center">
+                <div class="flex flex-wrap justify-center gap-4 mb-4">
+                    <div class="flex items-center text-gray-400">
+                        <i class="ri-visa-line text-xl mr-2"></i>
+                        <span>Visa</span>
+                    </div>
+                    <div class="flex items-center text-gray-400">
+                        <i class="ri-mastercard-line text-xl mr-2"></i>
+                        <span>Mastercard</span>
+                    </div>
+                    <div class="flex items-center text-gray-400">
+                        <i class="ri-paypal-line text-xl mr-2"></i>
+                        <span>PayPal</span>
+                    </div>
+                    <div class="flex items-center text-gray-400">
+                        <i class="ri-bank-line text-xl mr-2"></i>
+                        <span>Bank Transfer</span>
+                    </div>
+                    <div class="flex items-center text-gray-400">
+                        <i class="ri-money-dollar-circle-line text-xl mr-2"></i>
+                        <span>M-Pesa</span>
+                    </div>
+                </div>
+                
+                <p class="text-gray-500 text-sm">© 2025 Brighton Auto Yard. All rights reserved. Designed by Ochieng Brighton.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-6 right-6 w-12 h-12 bg-primary text-white rounded-full shadow-lg flex items-center justify-center opacity-0 invisible transition-all z-50">
+        <i class="ri-arrow-up-line text-xl"></i>
+    </button>
+
+    <script>
+        /* JavaScript content omitted here; provided in the JavaScript section below */
+    </script>
+</body>
+</html>
